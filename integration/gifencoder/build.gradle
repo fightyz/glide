@@ -9,6 +9,9 @@ dependencies {
     testImplementation "org.mockito:mockito-core:${MOCKITO_VERSION}"
     testImplementation "org.robolectric:robolectric:${ROBOLECTRIC_VERSION}"
     testImplementation "androidx.legacy:legacy-support-v4:${ANDROID_X_VERSION}"
+    testImplementation "androidx.test:core:${ANDROIDX_TEST_VERSION}"
+    testImplementation "androidx.test.ext:junit:${ANDROIDX_TEST_JUNIT_VERSION}"
+    testImplementation "androidx.test:runner:${ANDROIDX_TEST_VERSION}"
 }
 
 android {
